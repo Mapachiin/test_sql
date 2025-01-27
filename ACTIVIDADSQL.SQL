@@ -34,7 +34,7 @@ CREATE TABLE Equipo (
     FOREIGN KEY (AsignacionID) REFERENCES Asignacion(AsignacionID)
 );
 
--- Tabla: Software (opcional, si decides incluirla)
+-- Tabla: Software
 CREATE TABLE Software (
     SoftwareID INT PRIMARY KEY IDENTITY(1,1),
     Nombre VARCHAR(100) NOT NULL,
